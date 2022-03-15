@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/icarus/public_html/repositories/milkywayartcult
+    - export DEPLOYPATH=/home/icarus/public_html/
     - /bin/cp -R * $DEPLOYPATH
